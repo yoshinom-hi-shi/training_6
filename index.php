@@ -14,6 +14,8 @@
        </header>
        <p class="sub-title">日本最大規模のフリーランスイベント</p>
        <div class="kv"><img src="./img/kv.svg"></div>
+       <div class="kv_sp"><img src="./img/logo.png"></div>
+       <div class="kv_sub_title"><img src="./img/sub_title.png"></div>
            <p class="schedule">
                 <span class="date">3/4</span>
                 <span class="day">sat</span>

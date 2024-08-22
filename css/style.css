@@ -31,8 +31,6 @@ body {
 }
 
 .logo {
-    max-width: 186.78px;
-    width: 100%;
     height: auto;
 }
 
@@ -51,6 +49,14 @@ body {
     width: 100%;
 }
 
+.kv_sp {
+    display: none;
+}
+
+.kv_sub_title {
+    display: none;
+}
+
 .schedule {
     max-width: 372px;
     width: 100%;
@@ -59,7 +65,7 @@ body {
     color: #FFFFFF; 
 }
 
-.date {
+.date  {
     font-family: Roboto;
     font-size: 34.87px;
     font-style: italic;
@@ -72,7 +78,7 @@ body {
     font-size: 34.87px;
     font-style: italic;
     font-weight: 700;
-    text-align: left;    
+    text-align: left;      
 }
 
 .day {
@@ -117,3 +123,64 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 390px) {
+    .container {
+        background-image: url("../img/Group 183.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 466px;
+    }
+
+    .header {
+        padding: 10px 20px;
+    }
+    .logo {
+        width: 76.6px;
+        height: 19.93px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }    
+ 
+    .kv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .kv img {
+        display: none;
+    } 
+    
+    .kv_sp {
+        display: flex;
+    }
+
+    .kv_sub_title {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .date {
+        font-size: 24.95px;  
+    }
+
+    .date-time {
+        font-size: 24.95px;  
+    }
+
+    .day {
+        font-size: 18.15px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .spot {
+        font-size: 15.88px;     
+    }
+}
