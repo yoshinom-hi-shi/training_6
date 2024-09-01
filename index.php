@@ -20,26 +20,27 @@
         </div>
         <div class="spot">東京国際フォーラム ホールE2</div>
         <div class="button"><img src="./img/button.png"  alt="LINELogo"></div>
-        <div class="hexagon_header_1"></div>  
-        <div class="hexagon_header_2"></div>  
-        <div class="hexagon_header_3"></div> 
-        <div class="hexagon_header_3_1"></div>  
-        <div class="hexagon_header_4"></div>  
-        <div class="hexagon_header_5"></div> 
+        <div class="hexagon header_1"><img src="./img/hexagon_header_1.png" alt="heared_hexgon"></div>  
+        <div class="hexagon header_2"><img src="./img/hexagon_header_2.png" alt="heared_hexgon"></div>  
+        <div class="hexagon header_3"><img src="./img/hexagon_header_3.png" alt="heared_hexgon"></div> 
+        <div class="hexagon header_4"><img src="./img/hexagon_header_4.png" alt="heared_hexgon"></div>  
+        <div class="hexagon header_5"><img src="./img/hexagon_header_5.png" alt="heared_hexgon"></div> 
+        <div class="hexagon header_6"><img src="./img/hexagon_header_6.png" alt="heared_hexgon"></div> 
    </div>
 
    <section class=section id="about_section">
         <div class="content">
             <h1>Freelance Summit</h1>
             <p class="subtitle">フリーランスサミットとは？</p>
+            <div class="hexagon2 about_section_7"><img src="./img/about_section_7.png" alt="about_section_hexgon"></div>  
+            <div class="hexagon2 about_section_8"><img src="./img/about_section_8.png" alt="about_section_hexgon"></div>  
+            <div class="hexagon2 about_section_9"><img src="./img/about_section_9.png" alt="about_section_hexgon"></div>  
         </div>
         <div class="explanation">「FREELANCE SUMMIT」は、StockSun株式会社が主催する 日本最大規模のフリーランスイベントです。</div >
         <div class="explanation_sbu">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</div >
         <div class="hexagon_1"></div>  
         <div class="hexagon_2"></div>  
-        <div class="hexagon_2_1"></div> 
         <div class="hexagon_3"></div>  
-        <div class="hexagon_3_1"></div> 
    </section>   
 
    <section class=section id="event_summary_section">
@@ -87,10 +88,9 @@
                </div>
                <div class="access_image_wrapper"><img src="./img/map.png" class="access_image_wrapper"></div>    
            </div>
-        <div class="hexagon_4"></div>  
-        <div class="hexagon_5"></div>  
-        <div class="hexagon_5_1"></div> 
-        <div class="hexagon_6"></div>  
+            <div class="hexagon2 content_section_10"><img src="./img/content_section_10.png" alt="about_section_hexgon"></div>  
+            <div class="hexagon2 content_section_11"><img src="./img/content_section_11.png" alt="about_section_hexgon"></div>  
+            <div class="hexagon2 content_section_12"><img src="./img/content_section_12.png" alt="about_section_hexgon"></div>  
         </div>
     </section>    
 
@@ -169,13 +169,10 @@
                 </div>
             </div>
             <div class="attention">（順不同、一部企業のみ掲載）</div>
+            <div class="hexagon2 Exhibitors_section_13"><img src="./img/Exhibitors_section_13.png" alt="Exhibitors_section_hexgon"></div>  
+            <div class="hexagon2 Exhibitors_section_14"><img src="./img/Exhibitors_section_14.png" alt="Exhibitors_section_hexgon"></div>  
+            <div class="hexagon2 Exhibitors_section_15"><img src="./img/Exhibitors_section_15.png" alt="Exhibitors_section_hexgon"></div>  
         </div>  
-        <div class="hexagon_7"></div>  
-        <div class="hexagon_8"></div>  
-        <div class="hexagon_8_1"></div> 
-        <div class="hexagon_9"></div>  
-        <div class="hexagon_10"></div>  
-        <div class="hexagon_10_1"></div> 
     </section>   
     <section class=section id="timeschedule_section">
         <div class="content">
