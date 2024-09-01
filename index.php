@@ -9,11 +9,10 @@
 </head>
 <body>
     <div class="container" >
-       <div class="header"><img src="./img/stocksun_logo.png"  alt="Logo"></div>
+       <div class="header"></div>
        <div class="sub-title">日本最大規模のフリーランスイベント</div>
-       <div class="kv"><img src="./img/kv.svg"></div>
-       <div class="kv_sp"><img src="./img/logo.png"></div>
-       <div class="kv_sub_title"><img src="./img/sub_title.png"></div>
+       <div class="kv"></div>
+       <div class="kv_sp"></div>
        <div class="schedule">
             <span class="date">3/4</span>
             <span class="day">sat</span>
@@ -21,17 +20,26 @@
         </div>
         <div class="spot">東京国際フォーラム ホールE2</div>
         <div class="button"><img src="./img/button.png"  alt="LINELogo"></div>
+        <div class="hexagon_header_1"></div>  
+        <div class="hexagon_header_2"></div>  
+        <div class="hexagon_header_3"></div> 
+        <div class="hexagon_header_3_1"></div>  
+        <div class="hexagon_header_4"></div>  
+        <div class="hexagon_header_5"></div> 
    </div>
 
    <section class=section id="about_section">
         <div class="content">
             <h1>Freelance Summit</h1>
             <p class="subtitle">フリーランスサミットとは？</p>
-            </div>
-            <div class="explanation">「FREELANCE SUMMIT」は、StockSun株式会社が主催する 日本最大規模のフリーランスイベントです。</div >
-            <div class="explanation_sbu">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</div >
-            <div class="application-icon"><img src="./img/side_button.svg" class="schedule_image"></div>
-        </div>   
+        </div>
+        <div class="explanation">「FREELANCE SUMMIT」は、StockSun株式会社が主催する 日本最大規模のフリーランスイベントです。</div >
+        <div class="explanation_sbu">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</div >
+        <div class="hexagon_1"></div>  
+        <div class="hexagon_2"></div>  
+        <div class="hexagon_2_1"></div> 
+        <div class="hexagon_3"></div>  
+        <div class="hexagon_3_1"></div> 
    </section>   
 
    <section class=section id="event_summary_section">
@@ -60,23 +68,30 @@
                 <div class="text_wrapper"><p id="event_text">経営者 / フリーランス / 独立志望の会社員</p></div>
             </div>  
             <div class="event_access_item">
-                <div class="image_wrapper_third"><img src="./img/access.png" class="schedule_image"></div>    
-                <div class="access_text_wrapper">
-                    <h2 class="access_text_main">【最寄駅】</h2>
-                    <li class="access_text_second">JR
-                        <h3>有楽町駅より徒歩1分</h3>
-                        <h3>東京駅より徒歩5分</h3>
-                    </li>
-                    <li class="access_text_third">地下鉄    
-                        <h3>有楽町線 ： 有楽町駅(B1F地下コンコースにて連絡）</h3>
-                        <h3>千代田線 ： 二重橋前駅より徒歩5分/日比谷駅より徒歩7分 </h3>
-                        <h3>丸ノ内線 ： 銀座駅より徒歩5分 </h3>
-                        <h3>銀座線 ： 銀座駅より徒歩7分/京橋駅より徒歩7分</h3>
-                        <h3>三田線 ： 日比谷駅より徒歩5分</h3>
-                    </li>
+                <div class="event_access_item_sub">
+                    <div class="image_wrapper_third"><img src="./img/access.png" class="schedule_image"></div>    
+                    <div class="access_text_wrapper">
+                        <h2 class="access_text_main">【最寄駅】</h2>
+                        <li class="access_text_second">JR
+                            <h3>有楽町駅より徒歩1分</h3>
+                            <h3>東京駅より徒歩5分</h3>
+                        </li>
+                        <li class="access_text_third">地下鉄    
+                            <h3>有楽町線 ： 有楽町駅(B1F地下コンコースにて連絡）</h3>
+                            <h3>千代田線 ： 二重橋前駅より徒歩5分/日比谷駅より徒歩7分 </h3>
+                            <h3>丸ノ内線 ： 銀座駅より徒歩5分 </h3>
+                            <h3>銀座線 ： 銀座駅より徒歩7分/京橋駅より徒歩7分</h3>
+                            <h3>三田線 ： 日比谷駅より徒歩5分</h3>
+                        </li>
+                    </div>
                </div>
                <div class="access_image_wrapper"><img src="./img/map.png" class="access_image_wrapper"></div>    
-           </div>  
+           </div>
+        <div class="hexagon_4"></div>  
+        <div class="hexagon_5"></div>  
+        <div class="hexagon_5_1"></div> 
+        <div class="hexagon_6"></div>  
+        </div>
     </section>    
 
     <section class=section id="content_section">
@@ -155,6 +170,12 @@
             </div>
             <div class="attention">（順不同、一部企業のみ掲載）</div>
         </div>  
+        <div class="hexagon_7"></div>  
+        <div class="hexagon_8"></div>  
+        <div class="hexagon_8_1"></div> 
+        <div class="hexagon_9"></div>  
+        <div class="hexagon_10"></div>  
+        <div class="hexagon_10_1"></div> 
     </section>   
     <section class=section id="timeschedule_section">
         <div class="content">
@@ -167,9 +188,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/dj.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">今、SNSを始めるなら</p>
-                    </div>  
+                    <div class="comment">今、SNSを始めるなら</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">11:00〜</p>
@@ -177,9 +196,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/tabata.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">会社員で出世する人と独立<br>して成功する人の適正につ<br>いて</p>
-                    </div>  
+                    <div class="comment">会社員で出世する人と独立して成功する人の適正について</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">11:40〜</p>
@@ -187,9 +204,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/sou.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">営業出身のフリーランスの<br>生存戦略</p>
-                    </div>  
+                    <div class="comment">営業出身のフリーランスの生存戦略</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">12:20〜</p>
@@ -197,9 +212,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/hayashi.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">無数のフリーランスに発注<br>してわかった優秀な人の特<br>徴</p>
-                    </div>  
+                    <div class="comment">無数のフリーランスに発注してわかった優秀な人の特徴</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">13:00〜</p>
@@ -207,9 +220,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/kinoshita.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">現役上場企業社長が語る <br>最新WEBマーケティング論</p>
-                    </div>  
+                    <div class="comment">現役上場企業社長が語る最新WEBマーケティング論</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">13:40〜</p>
@@ -217,9 +228,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/kabumoto.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">月収300万円までのロード<br>マップ</p>
-                    </div>  
+                    <div class="comment">月収300万円までのロードマップ</div>  
                 </div>  
                 <div class="time_schedule_item">
                     <p id="hour">14:20〜</p>
@@ -241,9 +250,7 @@
                         <img src="./img/x.png" alt="写真" class="logo item_phot_x_left"> 
                         <img src="./img/x.png" alt="写真" class="logo item_phot_x_right"> 
                     </div>   
-                    <div class="comment">
-                        <p id="comment">SNSを伸ばした先に見える<br>世界</p>
-                    </div>  
+                    <div class="comment_sub">SNSを伸ばした先に見える世界</div>  
                 </div>
                 <div class="time_schedule_item">
                     <p id="hour">15:00〜</p>
@@ -251,9 +258,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/inoue.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">元サイバーエージェント局<br>長による広告業界の未来予<br>想図</p>
-                    </div>  
+                    <div class="comment">元サイバーエージェント局長による広告業界の未来予想図</div>  
                 </div>  
                 <div class="time_schedule_item">
                     <p id="hour">15:40〜</p>
@@ -264,9 +269,7 @@
                         <img src="./img/ita_ai.png" alt="写真" class="logo item_phot_name">
                         <img src="./img/x.png" alt="写真" class="logo item_phot_x">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">エンジニアとして独立し、<br>年収3000万円を超える方法</p>
-                    </div>  
+                    <div class="comment_third">エンジニアとして独立し、年収3000万円を超える方法</div>  
                 </div>  
                 <div class="time_schedule_item">
                     <p id="hour">16:20〜</p>
@@ -274,9 +277,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/iwai.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">累計300人以上、起業家を<br>見て感じた成功法則</p>
-                    </div>  
+                    <div class="comment">累計300人以上、起業家を見て感じた成功法則</div>  
                 </div>  
                 <div class="time_schedule_item">
                     <p id="hour">17:00〜</p>
@@ -284,9 +285,7 @@
                         <img src="./img/time.svg" alt="時間" class="logo item_time">
                         <img src="./img/shimabukuro.png" alt="写真" class="logo item_phot">
                     </div>   
-                    <div class="comment">
-                        <p id="comment">フリーランスにおすすめの<br>M＆Aトレンドを紹介</p>
-                    </div>  
+                    <div class="comment">フリーランスにおすすめのM＆Aトレンドを紹介 </div>  
                 </div>               
                 <div class="time_schedule_item_sub">
                     <p id="hour">MC</p>
@@ -332,7 +331,7 @@
                         <ul class="qa_text">一切かかりません。</ul>
                     </div>  
                 </div>
-                <div class="qa">
+                <div class="qa_sub">
                    <div class="question">
                         <div class="circle_blue">
                             <span>Q</span>
@@ -348,9 +347,19 @@
                 </div>
             </div>
     </section>  
+    <div class="application-icon"><img src="./img/side_button.svg" alt="LINE_image"></div>
+    <div class="application-icon_sub"><img src="./img/footer_line.png" alt="LINE_image"></div>
     <footer>
         <div class="footer_container">
-            <div class="footer_border"></div><img src="/img/footer_border.png" alt="footer_border">
+            <div class="footer_button"><img src="/img/footer_button.png" alt="footer_button">
+                <div class="footer_button_text">出展希望企業はこちら</div>
+            </div>
+            <div class="footer_border"><img src="/img/footer_border.png" alt="footer_border"></div>
+            <div class="footer_logo">
+                <div class="announce">運営会社</div>
+                <img src="/img/footer_logo.png" alt="footer_logo">
+                <div class="security">個人情報保護方針</div>
+            </div>
         </div>
     </footer>
 </body>
