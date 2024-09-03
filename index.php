@@ -92,7 +92,7 @@
             <div class="hexagon2 content_section_11"><img src="./img/content_section_11.png" alt="about_section_hexgon"></div>  
             <div class="hexagon2 content_section_12"><img src="./img/content_section_12.png" alt="about_section_hexgon"></div>  
         </div>
-    </section>    
+   </section>    
 
     <section class=section id="content_section">
         <div class="content">
@@ -148,10 +148,10 @@
                 <div class="about_exhibitors_left">
                     <p>オープラン株式会社</p>
                     <p>株式会社ビズリンク</p>
-                    <p>株式会社カルテットコミュニケーションズ</p>
-                    <p>クリーヴァ株式会社</p>
-                    <p>株式会社グラントホープ</p>
-                    <p>Modis株式会社</p>
+                    <p >株式会社カルテットコミュニケーションズ</p>
+                    <p >クリーヴァ株式会社</p>
+                    <p >株式会社グラントホープ</p>
+                    <p >Modis株式会社</p>
                     <p>INTLOOP株式会社</p>
                     <p>Langdemy株式会社</p>
                     <p>BOCジャパン合同会社</p>
@@ -161,17 +161,18 @@
                     <p>株式会社HandAid</p>
                     <p>株式会社J-Proach</p>
                     <p>ラーメン協会</p>
-                    <p>株式会社おウチdeお肉</p>
-                    <p>株式会社LifeCoach</p>
-                    <p>株式会社スポーツ＆ライフイノベーション</p>
-                    <p>株式会社iGO</p>
-                    <p>株式会社エドモンド</p>
+                    <p >株式会社おウチdeお肉</p>
+                    <p >株式会社LifeCoach</p>
+                    <p >株式会社スポーツ＆ライフイノベーション</p>
+                    <p >株式会社iGO</p>
+                    <p >株式会社エドモンド</p>
                 </div>
             </div>
             <div class="attention">（順不同、一部企業のみ掲載）</div>
             <div class="hexagon2 Exhibitors_section_13"><img src="./img/Exhibitors_section_13.png" alt="Exhibitors_section_hexgon"></div>  
             <div class="hexagon2 Exhibitors_section_14"><img src="./img/Exhibitors_section_14.png" alt="Exhibitors_section_hexgon"></div>  
             <div class="hexagon2 Exhibitors_section_15"><img src="./img/Exhibitors_section_15.png" alt="Exhibitors_section_hexgon"></div>  
+            <div class="hexagon2 Exhibitors_section_16"><img src="./img/Exhibitors_section_16.png" alt="Exhibitors_section_hexgon"></div>  
         </div>  
     </section>   
     <section class=section id="timeschedule_section">
@@ -179,122 +180,122 @@
             <h6>Time Schedule</h6>
             <p class="time_schedule">タイムスケジュール</p>
             <div class="time_schedule_container">
-                <div class="time_schedule_item">
-                    <p id="hour">10:00〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/dj.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">今、SNSを始めるなら</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">11:00〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/tabata.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">会社員で出世する人と独立して成功する人の適正について</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">11:40〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/sou.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">営業出身のフリーランスの生存戦略</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">12:20〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/hayashi.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">無数のフリーランスに発注してわかった優秀な人の特徴</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">13:00〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/kinoshita.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">現役上場企業社長が語る最新WEBマーケティング論</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">13:40〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/kabumoto.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">月収300万円までのロードマップ</div>  
-                </div>  
-                <div class="time_schedule_item">
-                    <p id="hour">14:20〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <div class="speaker">
-                            <img src="./img/yamamoto.png" alt="写真" class="logo item_phot_second_left">
-                            <p id="fullname">やまもと <br>りゅうけん</p>
-                        </div>
-                        <div class="speaker">
-                            <img src="./img/sako.png" alt="写真" class="logo item_phot_second_center">
-                            <p id="fullname_center">迫佑樹</p>
-                        </div>
-                        <div class="speaker">
-                            <img src="./img/aosasa.png" alt="写真" class="logo item_phot_second_right">
-                            <p id="fullname_right">青笹寛史</p>
-                        </div>
-                        <img src="./img/yama_sako_ao.png" alt="写真" class="logo item_phot_second_name">
-                        <img src="./img/x.png" alt="写真" class="logo item_phot_x_left"> 
-                        <img src="./img/x.png" alt="写真" class="logo item_phot_x_right"> 
-                    </div>   
-                    <div class="comment_sub">SNSを伸ばした先に見える世界</div>  
-                </div>
-                <div class="time_schedule_item">
-                    <p id="hour">15:00〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/inoue.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">元サイバーエージェント局長による広告業界の未来予想図</div>  
-                </div>  
-                <div class="time_schedule_item">
-                    <p id="hour">15:40〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/itabashi.png" alt="写真" class="logo item_phot_third_left">
-                        <img src="./img/aikuchi.png" alt="写真" class="logo item_phot_third_right">
-                        <img src="./img/ita_ai.png" alt="写真" class="logo item_phot_name">
-                        <img src="./img/x.png" alt="写真" class="logo item_phot_x">
-                    </div>   
-                    <div class="comment_third">エンジニアとして独立し、年収3000万円を超える方法</div>  
-                </div>  
-                <div class="time_schedule_item">
-                    <p id="hour">16:20〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/iwai.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">累計300人以上、起業家を見て感じた成功法則</div>  
-                </div>  
-                <div class="time_schedule_item">
-                    <p id="hour">17:00〜</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/shimabukuro.png" alt="写真" class="logo item_phot">
-                    </div>   
-                    <div class="comment">フリーランスにおすすめのM＆Aトレンドを紹介 </div>  
-                </div>               
-                <div class="time_schedule_item_sub">
-                    <p id="hour">MC</p>
-                    <div class="logo_hour">
-                        <img src="./img/time.svg" alt="時間" class="logo item_time">
-                        <img src="./img/uemoto_kane.png" alt="写真" class="logo item_phot_force">
-                    </div>   
-                </div>
+                    <div class="time_schedule_item">
+                        <p id="hour">10:00〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/dj.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">今、SNSを始めるなら</div>  
+                    </div>
+                    <div class="time_schedule_item">
+                        <p id="hour">11:00〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/tabata.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">会社員で出世する人と独立して成功する人の適正について</div>  
+                    </div>
+                    <div class="time_schedule_item">
+                        <p id="hour">11:40〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/sou.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">営業出身のフリーランスの生存戦略</div>  
+                    </div>
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">12:20〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/hayashi.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">無数のフリーランスに発注してわかった優秀な人の特徴</div>  
+                    </div>
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">13:00〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/kinoshita.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">現役上場企業社長が語る最新WEBマーケティング論</div>  
+                    </div>
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">13:40〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/kabumoto.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">月収300万円までのロードマップ</div>  
+                    </div>  
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">14:20〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <div class="speaker">
+                                <img src="./img/yamamoto.png" alt="写真" class="logo item_phot_second_left">
+                                <p id="fullname">やまもと <br>りゅうけん</p>
+                            </div>
+                            <div class="speaker">
+                               <img src="./img/sako.png" alt="写真" class="logo item_phot_second_center">
+                               <p id="fullname_center">迫佑樹</p>
+                            </div>
+                            <div class="speaker">
+                                <img src="./img/aosasa.png" alt="写真" class="logo item_phot_second_right">
+                                <p id="fullname_right">青笹寛史</p>
+                            </div>
+                            <img src="./img/yama_sako_ao.png" alt="写真" class="logo item_phot_second_name">
+                            <img src="./img/x.png" alt="写真" class="logo item_phot_x_left"> 
+                            <img src="./img/x.png" alt="写真" class="logo item_phot_x_right"> 
+                        </div>   
+                        <div class="comment_sub">SNSを伸ばした先に見える世界</div>  
+                    </div>
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">15:00〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/inoue.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">元サイバーエージェント局長による広告業界の未来予想図</div>  
+                    </div>  
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">15:40〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/itabashi.png" alt="写真" class="logo item_phot_third_left">
+                            <img src="./img/aikuchi.png" alt="写真" class="logo item_phot_third_right">
+                            <img src="./img/ita_ai.png" alt="写真" class="logo item_phot_name">
+                            <img src="./img/x.png" alt="写真" class="logo item_phot_x">
+                        </div>   
+                        <div class="comment_third">エンジニアとして独立し、年収3000万円を超える方法</div>  
+                    </div>  
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">16:20〜</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/iwai.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">累計300人以上、起業家を見て感じた成功法則</div>  
+                    </div>  
+                    <div class="time_schedule_item hidden">
+                        <p id="hour">17:00〜</p>
+                        <div class="logo_hour">
+                           <img src="./img/time.svg" alt="時間" class="logo item_time">
+                           <img src="./img/shimabukuro.png" alt="写真" class="logo item_phot">
+                        </div>   
+                        <div class="comment">フリーランスにおすすめのM＆Aトレンドを紹介 </div>  
+                    </div>               
+                    <div class="time_schedule_item_sub hidden">
+                        <p id="hour">MC</p>
+                        <div class="logo_hour">
+                            <img src="./img/time.svg" alt="時間" class="logo item_time">
+                            <img src="./img/uemoto_kane.png" alt="写真" class="logo item_phot_force">
+                        </div>   
+                    </div>
+                <button class="accordion_button">Read more</button>
             </div>
         </div>  
     </section>  
-
     <section class=section id="faq_section">
         <div class="content">
             <h5>FAQ</h5>
@@ -359,5 +360,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
