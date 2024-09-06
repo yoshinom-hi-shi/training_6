@@ -260,21 +260,21 @@ body {
 .content_section_10 {
     width: 67.49px;
     height: 65.17px;
-    top: 61.5%;
+    top: 60.5%;
     left: 8%;
 }
 
 .content_section_11 {
     width: 177.03px;
     height: 170.92px;
-    top: 73.5%;
+    top: 72.5%;
     left: 0.5%;
 }
 
 .content_section_12 {
     width: 235.18px;
     height: 227.67px;
-    top: 19%;
+    top: 18.5%;
     left: 85.5%;
 }
 .Exhibitors_section_13 {
@@ -337,7 +337,7 @@ body {
 }
 
 #event_summary_section {
-    margin-bottom: 93px;
+    margin-bottom: 84px;
     padding-top: 20px;
 }
 
@@ -1092,7 +1092,7 @@ body {
     max-height: 64px;
     height: 100px;
     margin-top: 10px;
-    margin-right: 28px;
+    margin-right: -6px;
 }
 
 .announce {
@@ -1101,8 +1101,8 @@ body {
     line-height: 20px;
     color: #FFFFFF;
     margin: 40px 20px;
-    padding-left: 12px;
-    padding-right: 11px;
+    padding-left: 19px;
+    padding-right: 0px;
 }
 
 .security {
@@ -1111,7 +1111,7 @@ body {
     line-height: 20px;
     color: #FFFFFF;
     margin: 40px;
-    padding-right: 20px;
+    padding-right: 5px;
     padding-left: 15px;
 }
 
@@ -1135,7 +1135,7 @@ body {
     z-index: 20;
     display: none;
 }
-@media screen and (min-width: 1440px) { 
+@media screen and (min-width: 1441px) { 
     .about_section_9,
     .content_section_12 {
         left: 90%;
