@@ -15,7 +15,7 @@
        <div class="kv_sp"></div>
        <div class="schedule">
             <span class="date">3/4</span>
-            <span class="day">sat</span>
+            <span class="day">Sat</span>
             <span class="date-time">10:00-18:00</span>
         </div>
         <div class="spot">東京国際フォーラム ホールE2</div>
@@ -47,15 +47,16 @@
         <div class="content">
             <h1>Event Summary</h1>
             <p class="subtitle">イベント開催概要</p>
+            <div class="event_summary_container">
             <div class="event_item">
                 <div class="image_wrapper"><img src="./img/date.png" class="schedule_image"></div>    
                 <div class="text_wrapper"><p id="event_text">2023年3月4日（土）開場10:00 閉場18:00（受付開始9:30-）</p></div>
             </div>   
             <div class="event_item">
                 <div class="image_wrapper"><img src="./img/place.png" class="schedule_image"></div>    
-                <div class="text_wrapper"><p id="event_text">東京国際フォーラム ホールE2</p></div>
+                <div class="text_wrapper"><p id="event_text">東京国際フォーラム  ホールE2</p></div>
             </div>  
-            <div class="event_item">
+            <div class="event_item_sub">
                 <div class="image_wrapper_second"><img src="./img/agenda.png" class="schedule_image"></div>    
                 <div class="text_wrapper">
                     <div class="text_wrapper_second">
@@ -86,11 +87,12 @@
                         </li>
                     </div>
                </div>
-               <div class="access_image_wrapper"><img src="./img/map.png" class="access_image_wrapper"></div>    
+               <div class="access_image_wrapper">></div>    
            </div>
             <div class="hexagon2 content_section_10"><img src="./img/content_section_10.png" alt="about_section_hexgon"></div>  
             <div class="hexagon2 content_section_11"><img src="./img/content_section_11.png" alt="about_section_hexgon"></div>  
             <div class="hexagon2 content_section_12"><img src="./img/content_section_12.png" alt="about_section_hexgon"></div>  
+        </div>
         </div>
    </section>    
 
@@ -109,38 +111,48 @@
     <section class=section id="picup_section">
         <div class="content">
             <h5>Pick Up</h5>
-            <p class="subtitle">注目の企業</p>
-            <div class="picup_item">
-                <div class="oplan"><img src="./img/oplan.png" alt="oplan"></div>    
-                <div class="picup_wrapper"><p class="picup_text">オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。</p>
-                    <a href="https://oplan.co.jp/" class="oplan_url">https://oplan.co.jp/</a>
-                </div>
-            </div>   
-            <div class="picup_item">
-                <div class="pe-bank"><img src="./img/PE-BANK.png" alt="pe-bank"></div>    
-                <div class="picup_wrapper"><p class="picup_text">ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</p></div>
-            </div>   
-            <div class="picup_item">
-                <div class="boc-japan"><img src="./img/BOCjapan.png" alt="boc-japan"></div>    
-                <div class="picup_wrapper"><p class="picup_text">台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</p></div>
-            </div>   
-            <div class="picup_item">
-                <div class="creava"><img src="./img/creava.png" alt="creava"></div>    
-                <div class="picup_wrapper"><p class="picup_text">月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。</p>
-                    <div class="sucsak_container">
-                        <img src="./img/sucsak.png" alt="sucsak">
-                        <a href="https://sucsak.com/" class="sucsak_url">：https://sucsak.com/</a>
+            <p id="subtitle_1">注目の企業</p>
+            <div class="picup_item_container">
+                <div class="picup_item">
+                    <div class="oplan"><img src="./img/oplan.png" alt="oplan"></div>    
+                    <div class="picup_wrapper">
+                        <div class="picup_text">オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。</div>
+                        <a href="https://oplan.co.jp/" class="oplan_url">https://oplan.co.jp/</a>
                     </div>
-                </div>
-            </div>   
-            <div class="picup_item">
-                <div class="quartet"><img src="./img/QUARTET.png" alt="quartet"></div>    
-                <div class="picup_wrapper"><p class="picup_text">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p></div>
-            </div>   
+                </div>   
+                <div class="picup_item">
+                    <div class="pe-bank"><img src="./img/PE-BANK.png" alt="pe-bank"></div>    
+                    <div class="picup_wrapper">
+                        <div class="picup_text">ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</div>
+                    </div>
+                </div>   
+                <div class="picup_item">
+                    <div class="boc-japan"><img src="./img/BOCjapan.png" alt="boc-japan"></div>    
+                    <div class="picup_wrapper">
+                        <div class="picup_text">台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</div>
+                    </div>
+                </div>   
+                <div class="picup_item">
+                    <div class="creava"><img src="./img/creava.png" alt="creava"></div>    
+                    <div class="picup_wrapper">
+                        <div class="picup_text">月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。</div>
+                        <div class="sucsak_container">
+                            <img src="./img/sucsak.png" alt="sucsak">
+                            <a href="https://sucsak.com/" class="sucsak_url">：https://sucsak.com/</a>
+                        </div>
+                    </div>
+                </div>   
+                <div class="picup_item">
+                    <div class="quartet"><img src="./img/QUARTET.png" alt="quartet"></div>    
+                    <div class="picup_wrapper">
+                        <div class="picup_text">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</div>
+                    </div>
+                </div>   
+            </div>
         </div>  
     </section>   
 
-    <section class=section id="About Exhibitors_section">
+    <section class=section id="About_Exhibitors_section">
         <div class="content">
             <h1>About Exhibitors</h1>
             <p class="subtitle">出展企業一覧</p>
@@ -343,6 +355,9 @@
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform" id="qa_text_link">こちらからお願いします</a>
                     </div>  
                 </div>
+            <div class="hexagon2 faq_section_17"><img src="./img/faq_section_17.png" alt="faq_section_hexgon"></div>  
+            <div class="hexagon2 faq_section_18"><img src="./img/faq_section_18.png" alt="faq_section_hexgon"></div>  
+            <div class="hexagon2 faq_section_19"><img src="./img/faq_section_19.png" alt="faq_section_hexgon"></div>  
             </div>
     </section>  
     <div class="application-icon"><img src="./img/side_button.svg" alt="LINE_image"></div>
