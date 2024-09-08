@@ -31,22 +31,19 @@
    <section class=section id="about_section">
         <div class="content">
             <h1>Freelance Summit</h1>
-            <p class="subtitle">フリーランスサミットとは？</p>
+            <p id="subtitle">フリーランスサミットとは？</p>
             <div class="hexagon2 about_section_7"><img src="./img/about_section_7.png" alt="about_section_hexgon"></div>  
             <div class="hexagon2 about_section_8"><img src="./img/about_section_8.png" alt="about_section_hexgon"></div>  
             <div class="hexagon2 about_section_9"><img src="./img/about_section_9.png" alt="about_section_hexgon"></div>  
+            <div class="explanation">「FREELANCE SUMMIT」は、StockSun株式会社が主催する 日本最大規模のフリーランスイベントです。</div >
+            <div class="explanation_sbu">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</div >
         </div>
-        <div class="explanation">「FREELANCE SUMMIT」は、StockSun株式会社が主催する 日本最大規模のフリーランスイベントです。</div >
-        <div class="explanation_sbu">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</div >
-        <div class="hexagon_1"></div>  
-        <div class="hexagon_2"></div>  
-        <div class="hexagon_3"></div>  
-   </section>   
+    </section>   
 
    <section class=section id="event_summary_section">
         <div class="content">
             <h1>Event Summary</h1>
-            <p class="subtitle">イベント開催概要</p>
+            <p id="subtitle1">イベント開催概要</p>
             <div class="event_summary_container">
             <div class="event_item">
                 <div class="image_wrapper"><img src="./img/date.png" class="schedule_image"></div>    
@@ -99,7 +96,7 @@
     <section class=section id="content_section">
         <div class="content">
             <h4>Contents</h4>
-            <p class="subtitle">イベント内容</p>
+            <p id="subtitle2">イベント内容</p>
             <div class=space_image>
                 <div class="space_image_left"><img src="./img/space_image_left.png" alt="space_image_left"></div>
                 <div class="space_image_right"><img src="./img/space_image_rigth.png" alt="space_image_right"></div>
@@ -111,7 +108,7 @@
     <section class=section id="picup_section">
         <div class="content">
             <h5>Pick Up</h5>
-            <p id="subtitle_1">注目の企業</p>
+            <p id="subtitle3">注目の企業</p>
             <div class="picup_item_container">
                 <div class="picup_item">
                     <div class="oplan"><img src="./img/oplan.png" alt="oplan"></div>    
@@ -155,7 +152,7 @@
     <section class=section id="About_Exhibitors_section">
         <div class="content">
             <h1>About Exhibitors</h1>
-            <p class="subtitle">出展企業一覧</p>
+            <p id="subtitle4">出展企業一覧</p>
             <div class=about_exhibitors>
                 <div class="about_exhibitors_left">
                     <p>オープラン株式会社</p>
@@ -311,7 +308,7 @@
     <section class=section id="faq_section">
         <div class="content">
             <h5>FAQ</h5>
-            <p class="subtitle">よくある質問</p>
+            <p id="subtitle5">よくある質問</p>
             <div class="faq_container">
                 <div class="qa">
                     <div class="question">

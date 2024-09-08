@@ -39,7 +39,6 @@ body {
 .content h4,
 .content h5,
 .content h6 {
-    font-family: roboto;
     font-size: 60px;
     font-style: italic;
     font-weight: 700;
@@ -61,7 +60,8 @@ body {
     font-weight: 700;
     color: #444545;
     line-height: 18px;
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
+    max-width: 1440px; 
     width: 100%;      
 }
  .hexagon {
@@ -93,8 +93,62 @@ body {
     width: 100%;      
 }
 
-.subtitle::before,
-.subtitle::after {
+#subtitle::before {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-right: 14px;
+    margin-top: -2px;
+}
+#subtitle::after {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%;    
+    margin-left: 14px;
+    margin-top: -2px;
+}
+#subtitle1::before {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-right: 23px;
+    margin-top: -2px;
+}    
+#subtitle1::after {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%;    
+    margin-top: -2px;
+    margin-left: 38px;
+}
+#subtitle2::before {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-right: 15px;
+    margin-top: 1px;
+}    
+#subtitle2::after {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%;    
+    margin-top: 2px;
+    margin-left: 25px;
+}
+#subtitle3::before,
+#subtitle3::after {
     content: '';
     flex-grow: 0.5;
     border: 0.5px solid #444545;
@@ -102,23 +156,60 @@ body {
     max-width: 30px;
     width: 100%;    
 }
-#subtitle_1::before,
-#subtitle_1::after {
+#subtitle4::before {
     content: '';
     flex-grow: 0.5;
     border: 0.5px solid #444545;
-    margin: 0 20px;
+    max-width: 30px;
+    width: 100%; 
+    margin-right: 45px;
+    margin-top: 3px;
+}
+#subtitle4::after {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-left: 60px;
+    margin-top: 3px;
+}
+#subtitle5::before {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-right: 17px;
+    margin-top: 0px;
+}
+#subtitle5::after {
+    content: '';
+    flex-grow: 0.5;
+    border: 0.5px solid #444545;
+    max-width: 30px;
+    width: 100%; 
+    margin-left: 26px;
+    margin-top: 0px;
+}
+.time_schedule::before {
+    content: '';
+    flex-grow: 0.5;
+    border: 1px solid #FFFFFF;
+    margin-top: -6px;
     max-width: 30px;
     width: 100%;    
+    margin-right: 20px;    
+
 }
-.time_schedule::before,
 .time_schedule::after {
     content: '';
     flex-grow: 0.5;
     border: 1px solid #FFFFFF;
-    margin: 0 20px;
+    margin-top: -6px;
     max-width: 30px;
-    width: 100%;    
+    width: 100%;
+    margin-left: 20px;  
 }
 .container {
     position: relative;
@@ -260,14 +351,14 @@ body {
 .content_section_10 {
     width: 67.49px;
     height: 65.17px;
-    top: 60.5%;
+    top: 60.8%;
     left: 8%;
 }
 
 .content_section_11 {
     width: 177.03px;
     height: 170.92px;
-    top: 72.5%;
+    top: 72.7%;
     left: 0.5%;
 }
 
@@ -275,7 +366,7 @@ body {
     width: 235.18px;
     height: 227.67px;
     top: 18.5%;
-    left: 85.5%;
+    left: 85.3%;
 }
 .Exhibitors_section_13 {
     width: 289.06px;
@@ -337,7 +428,7 @@ body {
 }
 
 #event_summary_section {
-    margin-bottom: 84px;
+    margin-bottom: 81px;
     padding-top: 20px;
 }
 
@@ -346,11 +437,12 @@ body {
     text-align: center;
     max-width: 44vw; /* 画面幅の80% */
     width: 100%;
-    margin-bottom: 30px;
-    font-size: 22px;
+    margin: 0 auto;
     font-weight: 700;
+    font-size: 22px;
     color: #444545;
     line-height: 43px;
+    margin-bottom: 20px;
 }
 
 .explanation_sbu {
@@ -363,7 +455,7 @@ body {
     line-height: 45px;
     margin: 0 auto;
     padding-bottom: 145px;
-    padding-top: 12px;
+    padding-top: 23px;
 }
 
 .event_item {
@@ -619,8 +711,9 @@ body {
     background: linear-gradient(to right,#FDD35C 0%,#FDD35C 3.5%,transparent 3.5%, transparent 96.5%,#FDD35C 96.5%, #FDD35C 100%);
     background-clip: padding-box;
     padding-top: 50px;
-    padding-bottom: 55px;
+    padding-bottom: 24px;
 }
+
 
 .picup_item {
     display: flex;
@@ -682,13 +775,13 @@ body {
 }
 
 #About_Exhibitors_section {
-    padding-top: 19px;
-    margin-bottom: 0    ;
+    padding-top: 23px;
+    margin-bottom: 2px    ;
 }
 
 .about_exhibitors {
     display: flex; 
-    gap: 150px;
+    gap: 145px;
     padding-right: 54px;
 }
 
@@ -696,7 +789,7 @@ body {
 .about_exhibitors_right {
     max-width: 460px;
     width: 100%;
-    padding-top: 34px;
+    padding-top: 35.5px;
 }
 
 .about_exhibitors_left p,
@@ -715,7 +808,7 @@ body {
     color: #444545;
     justify-content: right;   
     margin-bottom: 69px;
-    margin-top: 29px;
+    margin-top: 26px;
 }
 
 #timeschedule_section {
@@ -724,7 +817,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 91px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .content h6 {
@@ -788,7 +881,7 @@ body {
 }
 
 .item_phot {
-    top: 33%;
+    top: 31%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 130px;
@@ -886,7 +979,7 @@ body {
 }
 
 .item_time {
-    top: 2.5%;
+    top: 1.5%;
     left: -1.5%;
     width: 88px;
     height: 31px;
@@ -916,7 +1009,7 @@ body {
     line-height: 16px;
     width: 100%;
     justify-content: left;
-    margin: 12px 0;
+    margin: 9px 0;
     margin-left: 8px;
     z-index: 2; 
 }  
@@ -968,7 +1061,7 @@ body {
 
 #faq_section {
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 69px;
 }
 
 .faq_container {
@@ -1043,7 +1136,7 @@ body {
 
 .footer_container {
     background-color: #333333;
-    padding-top: 56px;
+    padding-top: 58px;
     text-align: center;
     height: 279px;
 }
@@ -1073,10 +1166,10 @@ body {
 }
 
 .footer_border {
-    width: 80%;
+    width: 83%;
     max-width: 1192px;
     transform: translateY(-20%);
-    margin: 0 auto;
+    margin: 0px auto;
 }
 .footer_border img {
     width: 100%;
@@ -1091,8 +1184,8 @@ body {
     max-width: 210px;
     max-height: 64px;
     height: 100px;
-    margin-top: 10px;
-    margin-right: -6px;
+    margin-top: 5px;
+    margin-left: 14px;
 }
 
 .announce {
@@ -1100,9 +1193,9 @@ body {
     font-weight: 500;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 40px 20px;
-    padding-left: 19px;
-    padding-right: 0px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    margin-left: 12px;
 }
 
 .security {
@@ -1110,9 +1203,9 @@ body {
     font-weight: 500;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 40px;
-    padding-right: 5px;
-    padding-left: 15px;
+    margin-top: 40px;
+    margin-left: 43px;
+    letter-spacing: 2px;
 }
 
 .application-icon {
@@ -1134,6 +1227,9 @@ body {
     align-items: center;
     z-index: 20;
     display: none;
+}
+.button {
+
 }
 @media screen and (min-width: 1441px) { 
     .about_section_9,
@@ -1866,16 +1962,18 @@ body {
     .time_schedule_container {
        width: 345px;
     }
-    .about_exhibitors_left,
     .about_exhibitors_right {
-        margin: 0 20px;
+        display: none;
+    }
+    .about_exhibitors_left {
+        margin-top: 10px;
+        margin-right: 90px;
     }       
-    .about_exhibitors_left p,
-    .about_exhibitors_right p {
-        font-size: 12px;
+    .about_exhibitors_left p {
+        font-size: 13px;
         line-height: 37px;
         justify-content: left;
-        font-weight: 500;
+        font-weight: 700;
         margin-bottom: 0px;
     } 
     .about_section_7 {
@@ -2152,8 +2250,7 @@ body {
         top: 63.5%;
         left: -19.5%;   
     }  
-    .about_exhibitors_left p,
-    .about_exhibitors_right p {
+    .about_exhibitors_left p {
         margin-bottom: 0;
     }        
     .Exhibitors_section_14 {
@@ -2217,4 +2314,42 @@ body {
         padding-top: 27px;
         padding-bottom: 0px;        
     }
+    #subtitle::before {
+        max-width: 21px;
+        margin-right: 14px;
+        margin-top: -8px;
+    }
+    #subtitle::after {
+        max-width: 21px;
+        margin-left: 14px;
+        margin-top: -8px;
+    }
+    #subtitle1::before {
+        max-width: 21px;
+        margin-right: 16px;
+        margin-top: -2px;        
+    }
+    #subtitle1::after {
+        max-width: 21px;
+        margin-top: -2px;
+        margin-left: 21px;
+    }
+    .event_summary_container {
+        margin-top: 17px;
+    }
+    .event_item, 
+    .event_item_sub {
+        height: 75px;
+    }
+    #faq_section {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    .footer_container {
+        padding-top: 48px;
+
+    }
+    .picup_item {
+        margin: 37px 0;
+    }    
 }
