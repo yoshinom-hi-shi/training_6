@@ -13,11 +13,7 @@
        <div class="sub-title">日本最大規模のフリーランスイベント</div>
        <div class="kv"></div>
        <div class="kv_sp"></div>
-       <div class="schedule">
-            <span class="date">3/4</span>
-            <span class="day">Sat</span>
-            <span class="date-time">10:00-18:00</span>
-        </div>
+       <div class="schedule"></div>
         <div class="spot">東京国際フォーラム ホールE2</div>
         <div class="button"><img src="./img/button.png"  alt="LINELogo"></div>
         <div class="hexagon header_1"><img src="./img/hexagon_header_1.png" alt="heared_hexgon"></div>  

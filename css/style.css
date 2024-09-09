@@ -39,6 +39,7 @@ body {
 .content h4,
 .content h5,
 .content h6 {
+    font-family: roboto;
     font-size: 60px;
     font-style: italic;
     font-weight: 700;
@@ -64,6 +65,7 @@ body {
     max-width: 1440px; 
     width: 100%;      
 }
+
  .hexagon {
     display: none;
  }
@@ -195,7 +197,7 @@ body {
 .time_schedule::before {
     content: '';
     flex-grow: 0.5;
-    border: 1px solid #FFFFFF;
+    border: 0.5px solid #FFFFFF;
     margin-top: -6px;
     max-width: 30px;
     width: 100%;    
@@ -205,7 +207,7 @@ body {
 .time_schedule::after {
     content: '';
     flex-grow: 0.5;
-    border: 1px solid #FFFFFF;
+    border: 0.5px solid #FFFFFF;
     margin-top: -6px;
     max-width: 30px;
     width: 100%;
@@ -252,6 +254,7 @@ body {
     margin: 0 auto;
     text-align: center;   
     color: #FFFFFF;   
+    margin-top: 15px;
 }
 
 .kv {
@@ -259,8 +262,7 @@ body {
     max-width: 562px;
     width: 100%;
     height: 342.34px;
-    margin-top: 43.1px;
-    margin-bottom: 19.2px;
+    margin-top: 40.1px;
 }
 
 .kv_sp {
@@ -269,11 +271,18 @@ body {
 }
 
 .schedule {
+    background-image: url("../img/day.png");  
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 381px;
     width: 100%;
-    color: #FFFFFF; 
-    padding-bottom: 17.37px;
+    height: 70.75px;
+    margin-top: 18px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+
 }
-.date  {
+/* .date  {
     font-family: Roboto;
     font-size: 45.87px;
     font-style: italic;
@@ -300,7 +309,7 @@ body {
     line-height: 36.36px;
     text-align: left;
     margin-right: 1px;
-}
+} */
 
 .spot {
     max-width: 408px;
@@ -310,7 +319,7 @@ body {
     line-height: 29.19px;
     font-weight: 700;
     color: #FFFFFF; 
-    padding-bottom: 69px;
+    padding-bottom: 79px;
 }
 
 .line {
@@ -371,7 +380,7 @@ body {
 .Exhibitors_section_13 {
     width: 289.06px;
     height: 279.83px;
-    top: 26.5%;
+    top: 28%;
     left: 0%;
 }
 .Exhibitors_section_14 {
@@ -776,20 +785,18 @@ body {
 
 #About_Exhibitors_section {
     padding-top: 23px;
-    margin-bottom: 2px    ;
+    padding-bottom: 35px    ;
 }
 
 .about_exhibitors {
     display: flex; 
     gap: 145px;
-    padding-right: 54px;
 }
 
 .about_exhibitors_left,
 .about_exhibitors_right {
     max-width: 460px;
     width: 100%;
-    padding-top: 35.5px;
 }
 
 .about_exhibitors_left p,
@@ -817,7 +824,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 91px;
-    padding-bottom: 3px;
+    padding-bottom: 7px;
 }
 
 .content h6 {
@@ -830,7 +837,7 @@ body {
     grid-template-rows: repeat(4,1fr);
     column-gap: 30px;
     row-gap: 22px;
-    margin: 40px auto 184px auto;
+    margin: -2px auto 184px auto;
 }
 
 .accordion_button {
@@ -881,8 +888,8 @@ body {
 }
 
 .item_phot {
-    top: 31%;
-    left: 50%;
+    top: 33%;
+    left: 49%;
     transform: translate(-50%,-50%);
     width: 130px;
     height: 133.76px;
@@ -979,7 +986,7 @@ body {
 }
 
 .item_time {
-    top: 1.5%;
+    top: 2.5%;
     left: -1.5%;
     width: 88px;
     height: 31px;
@@ -1009,8 +1016,8 @@ body {
     line-height: 16px;
     width: 100%;
     justify-content: left;
-    margin: 9px 0;
-    margin-left: 8px;
+    margin: 10px 0;
+    margin-left: 11px;
     z-index: 2; 
 }  
 
@@ -1131,7 +1138,6 @@ body {
     line-height: 27px;
     text-align: left;
     color: #000000;  
-    text-decoration: none;    
 }
 
 .footer_container {
@@ -1864,11 +1870,17 @@ body {
         margin-bottom: 14px;
     }
     .schedule {
-        width: 218px;
-        height: 19px;
-        margin-bottom: 16px;
-    }
-    .date  {
+        background-image: url("../img/day2.png");  
+        background-repeat: no-repeat;
+        text-align: center;
+        max-width: 202.34px;
+        width: 100%;
+        height: 38.48px;
+        margin-top: 18px;
+        margin-bottom: -5px;
+        margin-right: 5px;
+    }        
+    /* .date  {
         font-size: 24.95px;
     }
     
@@ -1879,7 +1891,7 @@ body {
     .day {
         font-size: 18.15px;
     }
-    
+     */
     .spot {
         font-size: 15.88px;
         padding-bottom: 0px;
@@ -2229,6 +2241,9 @@ body {
     }
 }
 @media screen and (max-width: 390px) {
+    .content h1, .content h4, .content h5, .content h6 {
+        margin-bottom: 11px;
+    }         
     .container {
         background-image: url("../img/fv_bg.png");
         width: 100%;
@@ -2237,6 +2252,7 @@ body {
     } 
     .explanation_sbu {
         padding-bottom: 0px;
+        padding-top: 0px;
     }
     .about_section_9 {
         transform: scale(0.56);
@@ -2307,7 +2323,7 @@ body {
         padding-bottom: 52px;
     }
     .space_image_left {
-        padding-top: 23px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
     .space_image_right {
@@ -2315,27 +2331,48 @@ body {
         padding-bottom: 0px;        
     }
     #subtitle::before {
-        max-width: 21px;
+        max-width: 20px;
         margin-right: 14px;
-        margin-top: -8px;
+        margin-top: 1px;
     }
     #subtitle::after {
-        max-width: 21px;
+        max-width: 20px;
         margin-left: 14px;
-        margin-top: -8px;
+        margin-top: 1px;
     }
     #subtitle1::before {
-        max-width: 21px;
+        max-width: 20px;
         margin-right: 16px;
         margin-top: -2px;        
     }
     #subtitle1::after {
-        max-width: 21px;
+        max-width: 20px;
         margin-top: -2px;
         margin-left: 21px;
     }
+    #subtitle2::before ,
+    #subtitle2::after ,
+    #subtitle3::before ,
+    #subtitle3::after,
+    .time_schedule::before,
+    .time_schedule::after,
+    #subtitle5::before ,
+    #subtitle5::after {    
+        max-width: 20px;  
+    }
+    #subtitle4::before  {
+        max-width: 20px;  
+        margin-right: 20px;
+    }
+    #subtitle4::after  {
+        max-width: 20px;  
+        margin-left: 20px;
+    }
+    #event_summary_section {
+        padding-top: 25px;
+    }   
     .event_summary_container {
-        margin-top: 17px;
+        margin-top: 0px;
     }
     .event_item, 
     .event_item_sub {
@@ -2350,6 +2387,95 @@ body {
 
     }
     .picup_item {
-        margin: 37px 0;
+        margin-bottom: 34px;
+        margin-top: 0px;
     }    
+    .sub-title {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .kv {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .kv_sp {
+        margin-bottom: 25px;
+        margin-top: 3px;
+    }
+    .schedule {
+        height: 26.48px;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+    .spot {
+        margin-bottom: 2px;
+    }
+    .content p { 
+        margin-bottom: 24px;
+    }
+    .content .time_schedule  {
+        margin-bottom: 23px;
+    }
+    .about_exhibitors_left {
+        margin-top: 0px;
+        margin-right: 26px;
+        gap: 10px;
+    }
+    .qa, .qa_sub {
+        margin: 0px 0px 40px 20px;
+    }
+    .about_exhibitors_left p {
+        font-weight: 500;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #000000;
+        line-height: 30px;
+    }
+
+    #About_Exhibitors_section {
+        margin-bottom: 0px;
+    }    
+    #timeschedule_section {
+        padding-top: 50px;
+    }
+    .time_schedule_container {
+        margin-bottom: 21px;
+    }
+    .attention {
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    .Exhibitors_section_16 {
+        top: 77%;
+    }
+    .footer_button {
+        max-width: 250px;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .announce {
+        margin: 24px 0px;
+        margin-left: 0px;
+        line-height: 13px;
+        letter-spacing: 0px;
+    }
+    .footer_logo img {
+        max-height: 36.65px;
+        margin-left: 2px;
+    }
+    .security {
+        margin: 24px 2px;
+        line-height: 13px;
+        letter-spacing: 0px;
+    }
+    .footer_container {
+        padding-top: 38px;
+        padding-bottom: 0px;
+        height: 243px;
+    }
+    .footer_logo {
+        max-width: 296.5px;
+        margin: 0 auto;
+    }
 }
