@@ -46,7 +46,7 @@
                 <div class="text_wrapper"><p id="event_text">2023年3月4日（土）開場10:00 閉場18:00（受付開始9:30-）</p></div>
             </div>   
             <div class="event_item">
-                <div class="image_wrapper"><img src="./img/place.png" class="schedule_image"></div>    
+                <div class="image_wrapper_sub"><img src="./img/place.png" class="schedule_image"></div>    
                 <div class="text_wrapper"><p id="event_text">東京国際フォーラム  ホールE2</p></div>
             </div>  
             <div class="event_item_sub">

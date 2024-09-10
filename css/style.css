@@ -469,7 +469,8 @@ body {
     display: flex;
 }
 
-.image_wrapper {
+.image_wrapper,
+.image_wrapper_sub {
     display: flex;
     flex: 1;
     text-align: right;
@@ -1404,6 +1405,7 @@ body {
         width: 100%;
         height: auto;
         padding: 27px 0;
+        gap: 41px;
         }     
     #event_text,
     #event_text_main,
@@ -1414,9 +1416,11 @@ body {
         width: 100%;
         height: auto;
         line-height: 23px;
-        margin-left: 40px;
         }
-    .image_wrapper, .image_wrapper_second, .image_wrapper_third {
+    .image_wrapper,
+    .image_wrapper_sub,
+    .image_wrapper_second, 
+    .image_wrapper_third {
         max-width: 130px;
         width: 100%;
         height: 47px;
@@ -1436,6 +1440,7 @@ body {
         margin:20px 0px 20px 20px;
     }
     .image_wrapper img,
+    .image_wrapper_sub img,
     .image_wrapper_second img,
     .image_wrapper_third img  {
         max-width: 130px;
@@ -1444,11 +1449,6 @@ body {
         margin-left: 10px;
         margin: 0;
     }  
-    .about_exhibitors_left p,
-    .about_exhibitors_right p {
-        font-size: 15px;
-        line-height: 37px;
-    }
     .attention {
         font-size: 15px;
     }    
@@ -1460,6 +1460,17 @@ body {
     }   
     .access_image_wrapper {
         margin: 0 auto;
+    }
+    .about_exhibitors {
+        display: block;
+    }
+    .about_exhibitors_left, 
+    .about_exhibitors_right {
+        margin: 0;
+        padding: 0;
+    }
+    .about_exhibitors_left p, .about_exhibitors_right p {
+        line-height: 45px;
     }
 }
 @media screen and (max-width: 900px) {
@@ -1490,6 +1501,7 @@ body {
         height: auto;
     }    
     .image_wrapper,
+    .image_wrapper_sub,
     .image_wrapper_second,
     .image_wrapper_third  {
         max-width: 130px;
@@ -1717,6 +1729,7 @@ body {
         width: 100%;
     }
     .image_wrapper,
+    .image_wrapper_sub,
     .image_wrapper_second,
     .image_wrapper_third  {
         max-width: 105.74px;
@@ -1724,6 +1737,7 @@ body {
         height: 30px;
     }  
     .image_wrapper img,
+    .image_wrapper_sub img,
     .image_wrapper_second img,
     .image_wrapper_third img  {
         max-width: 105.74x;
@@ -1774,13 +1788,7 @@ body {
     .about_exhibitors_right {
         margin: 0 20px;
     }       
-    .about_exhibitors_left p,
-    .about_exhibitors_right p {
-        font-size: 12px;
-        line-height: 37px;
-    }
     .attention {
-        font-size: 12px;
         margin-bottom: 40px;
     }    
     .Exhibitors_section_14 {
@@ -1880,18 +1888,6 @@ body {
         margin-bottom: -5px;
         margin-right: 5px;
     }        
-    /* .date  {
-        font-size: 24.95px;
-    }
-    
-    .date-time {
-        font-size: 24.95px; 
-    }
-    
-    .day {
-        font-size: 18.15px;
-    }
-     */
     .spot {
         font-size: 15.88px;
         padding-bottom: 0px;
@@ -1947,6 +1943,7 @@ body {
         width: 100%;    
     }
     .image_wrapper img,
+    .image_wrapper_sub img,
     .image_wrapper_second img,
     .image_wrapper_third img  {
         width: 105.74px;
@@ -1981,17 +1978,15 @@ body {
     .about_exhibitors_left, 
     .about_exhibitors_right {
         margin-top: 10px;
-        margin-right: 0px;
-        margin-left: 10px;
+        margin: 0;
     }       
-    .about_exhibitors_left p,
+    .about_exhibitors_left p, 
     .about_exhibitors_right p {
-        font-size: 12px;
-        line-height: 25px;
-        justify-content: left;
+        font-size: 20px;
         font-weight: 500;
-        margin-bottom: 0px;
-    } 
+        line-height: 40px;
+        justify-content: left;
+    }  
     .about_section_7 {
         top: 74%;
         left: -6%; 
@@ -2125,7 +2120,10 @@ body {
     #event_text_sub {
         padding-top: 0px;
     }
-    .image_wrapper, .image_wrapper_second, .image_wrapper_third {
+    .image_wrapper,
+    .image_wrapper_sub, 
+    .image_wrapper_second, 
+    .image_wrapper_third {
         margin-bottom: 20px;
         }
     .image_wrapper_third {
@@ -2142,15 +2140,13 @@ body {
     }  
     .about_exhibitors_left p,
     .about_exhibitors_right p {
-        font-size: 10px;
-        line-height: 25px;
+        font-size: 17px;
     }  
     .about_exhibitors_left, 
     .about_exhibitors_right {
         margin-left: 20px;
     }    
     .attention {
-        font-size: 9px;
         margin-bottom: 25px;
     }    
     .Exhibitors_section_16 {
@@ -2267,7 +2263,12 @@ body {
     .about_exhibitors_left, 
     .about_exhibitors_right {
         margin-left: 10px;
-    }        
+    }  
+    .about_exhibitors_left p,
+    .about_exhibitors_right p {
+        font-size: 15px;
+        line-height: 30px;
+    }       
 }
 @media screen and (max-width: 390px) {
     .content h1, .content h4, .content h5, .content h6 {
@@ -2330,15 +2331,15 @@ body {
         max-width: 221px;
     }        
     .access_text_wrapper h2 {
-        margin-left: 10px;
-        margin-top: 12px;
+        margin-top: 20px;
+        margin-left: 13px;
     }
     .access_text_second {
-        margin-left: 2px;
-        margin-top: -3px;
+        margin-left: 5px;
+        margin-top: 2px;
     }
     .access_text_third {
-        margin-left: 1px;
+        margin-left: 4px;
         margin-top: 8px;
     }
     #event_summary_section {
@@ -2398,11 +2399,7 @@ body {
         padding-top: 25px;
     }   
     .event_summary_container {
-        margin-top: 0px;
-    }
-    .event_item, 
-    .event_item_sub {
-        height: 75px;
+        margin-top: -10px;
     }
     #faq_section {
         padding-top: 25px;
@@ -2441,16 +2438,10 @@ body {
     .content .time_schedule  {
         margin-bottom: 23px;
     }
-    .about_exhibitors_left,
-    .about_exhibitors_right {
-        margin-top: 0px;
-        margin-right: 20px;
-        gap: 10px;
-    }
     .about_exhibitors_left p,
     .about_exhibitors_right p {
-        margin-bottom: 0px;
-        font-size: 9px;
+        font-size: 15px;
+        line-height: 8px;   
     } 
     .about_exhibitors {
         gap: 0;
@@ -2504,5 +2495,47 @@ body {
     .footer_logo {
         max-width: 296.5px;
         margin: 0 auto;
+    }
+    .image_wrapper, 
+    .image_wrapper_second {
+        margin-bottom: 18px;
+        margin-left: 13px;
+        }
+    .image_wrapper_third {
+        margin-top: 18px;
+        margin-bottom: 0px;
+        margin-left: 13px;
+    }        
+    .event_access_item_sub {
+        margin-top: -12px;
+    }
+    .text_wrapper {
+        margin-top: 13.5px;
+        margin-bottom: 12px;
+    }
+    .event_item, .event_item_sub, .event_access_item {
+        gap: 20px;
+    }
+    #event_text, #event_text_main, #event_text_sub, .access_text_main {
+        margin-left: 0;
+        line-height: 25.18px;
+    }
+    .access_image_wrapper {
+        margin-top: 0px;
+    }
+    .text_wrapper_second {
+        height: 43px;
+    }
+    .image_wrapper_sub {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 13px;
+    }
+    .attention {
+        font-size: 12px;
+    }
+    .content .time_schedule {
+        font-size: 14px;
+        line-height: 14px;
     }
 }
