@@ -282,34 +282,6 @@ body {
     margin-right: 5px;
 
 }
-/* .date  {
-    font-family: Roboto;
-    font-size: 45.87px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 45.87px;
-    padding-right: 3px;
-}
-
-.date-time {
-    font-family: Roboto;
-    font-size: 43.37px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 49.37px;
-    padding-right: 2px; 
-    line-height: 43.37px;  
-}
-
-.day {
-    font-family: Roboto;
-    font-size: 33.36px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 36.36px;
-    text-align: left;
-    margin-right: 1px;
-} */
 
 .spot {
     max-width: 408px;
@@ -380,7 +352,7 @@ body {
 .Exhibitors_section_13 {
     width: 289.06px;
     height: 279.83px;
-    top: 28%;
+    top: 26.5%;
     left: 0%;
 }
 .Exhibitors_section_14 {
@@ -1016,8 +988,8 @@ body {
     line-height: 16px;
     width: 100%;
     justify-content: left;
-    margin: 10px 0;
-    margin-left: 11px;
+    margin: 10.8px 0;
+    margin-left: 10.5px;
     z-index: 2; 
 }  
 
@@ -1076,8 +1048,9 @@ body {
     flex-direction: column;
     gap: 45px;
     margin-top: 70px;
-    margin-right: 220px;
+    margin-right: 238px;
     margin-bottom: 85px;
+    width: 100%;
 }
 
 .qa,
@@ -1096,7 +1069,8 @@ body {
 
 .circle_blue {
     display: inline-block;
-    width: 33px;
+    max-width: 33px;
+    width: 100%;
     height: 33px;
     background: #00A8F0;
     border-radius: 50%;
@@ -1106,7 +1080,8 @@ body {
 
 .circle_yellow  {
     display: inline-block;
-    width: 33px;
+    max-width: 33px;
+    width: 100%;
     height: 33px;
     background: #FDD35C;
     border-radius: 50%;
@@ -1144,7 +1119,7 @@ body {
     background-color: #333333;
     padding-top: 58px;
     text-align: center;
-    height: 279px;
+    height: 355px;
 }
 
 .footer_button {
@@ -1225,18 +1200,9 @@ body {
 }
 
 .application-icon_sub {
-    position: fixed;
-    right: 33%; 
-    bottom: 0%;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 20;
     display: none;
 }
-.button {
-
-}
+  
 @media screen and (min-width: 1441px) { 
     .about_section_9,
     .content_section_12 {
@@ -1388,7 +1354,40 @@ body {
         display: none;
     }
     .application-icon_sub {
-        display: block;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .pre-register-button {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 16px;
+        background-color: #06C755;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 19.6px;
+        font-weight: 700;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+      
+    .pre-register-button:hover {
+        background-color: #218838;
+    }
+      
+    .line-icon {
+        width: 46.55px; /* LINEアイコンのサイズ */
+        height: 46.55px;
+        margin-left: 8px;
     }
     .about_exhibitors_left,
     .about_exhibitors_right {
@@ -1782,6 +1781,7 @@ body {
     }
     .attention {
         font-size: 12px;
+        margin-bottom: 40px;
     }    
     .Exhibitors_section_14 {
         top: 4%;
@@ -1974,18 +1974,22 @@ body {
     .time_schedule_container {
        width: 345px;
     }
-    .about_exhibitors_right {
-        display: none;
+    .about_exhibitors {
+        gap: 0;
+        margin-top: 24px;
     }
-    .about_exhibitors_left {
+    .about_exhibitors_left, 
+    .about_exhibitors_right {
         margin-top: 10px;
-        margin-right: 90px;
+        margin-right: 0px;
+        margin-left: 10px;
     }       
-    .about_exhibitors_left p {
-        font-size: 13px;
-        line-height: 37px;
+    .about_exhibitors_left p,
+    .about_exhibitors_right p {
+        font-size: 12px;
+        line-height: 25px;
         justify-content: left;
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 0px;
     } 
     .about_section_7 {
@@ -1993,6 +1997,7 @@ body {
         left: -6%; 
     }
     .about_section_9 {
+        top: -8%;
         left: 79%;
     } 
     .item_phot_second_name {
@@ -2053,12 +2058,10 @@ body {
         font-size: 16px;
         line-height: 37px;
     } 
-    .qa_sub {
-        display: none;
-    }
     .footer_container {
-        padding: 30px 0;
-    }    
+        padding-top: 30px;
+        height: 281px;
+    }  
     .footer_button {
         margin-bottom: 20px;
     }   
@@ -2136,8 +2139,24 @@ body {
     }    
     .text_wrapper_second {
         height: 51px;
-    }         
-}
+    }  
+    .about_exhibitors_left p,
+    .about_exhibitors_right p {
+        font-size: 10px;
+        line-height: 25px;
+    }  
+    .about_exhibitors_left, 
+    .about_exhibitors_right {
+        margin-left: 20px;
+    }    
+    .attention {
+        font-size: 9px;
+        margin-bottom: 25px;
+    }    
+    .Exhibitors_section_16 {
+        top: 82%;
+    }  
+}  
 @media screen and (max-width: 420px) {
     .time_schedule_item, 
     .time_schedule_item_sub,
@@ -2239,6 +2258,16 @@ body {
     .application-icon_sub {
         right: 9%; 
     }
+    .about_exhibitors_left p,
+    .about_exhibitors_right p {
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+    } 
+    .about_exhibitors_left, 
+    .about_exhibitors_right {
+        margin-left: 10px;
+    }        
 }
 @media screen and (max-width: 390px) {
     .content h1, .content h4, .content h5, .content h6 {
@@ -2265,10 +2294,7 @@ body {
         height: 117.87px;
         top: 63.5%;
         left: -19.5%;   
-    }  
-    .about_exhibitors_left p {
-        margin-bottom: 0;
-    }        
+    }       
     .Exhibitors_section_14 {
         top: -1%;
         left: 70%;
@@ -2384,7 +2410,6 @@ body {
     }
     .footer_container {
         padding-top: 48px;
-
     }
     .picup_item {
         margin-bottom: 34px;
@@ -2416,22 +2441,24 @@ body {
     .content .time_schedule  {
         margin-bottom: 23px;
     }
-    .about_exhibitors_left {
+    .about_exhibitors_left,
+    .about_exhibitors_right {
         margin-top: 0px;
-        margin-right: 26px;
+        margin-right: 20px;
         gap: 10px;
+    }
+    .about_exhibitors_left p,
+    .about_exhibitors_right p {
+        margin-bottom: 0px;
+        font-size: 9px;
+    } 
+    .about_exhibitors {
+        gap: 0;
+        margin-top: 0px;
     }
     .qa, .qa_sub {
         margin: 0px 0px 40px 20px;
     }
-    .about_exhibitors_left p {
-        font-weight: 500;
-        margin-bottom: 5px;
-        font-size: 14px;
-        color: #000000;
-        line-height: 30px;
-    }
-
     #About_Exhibitors_section {
         margin-bottom: 0px;
     }    
@@ -2442,11 +2469,11 @@ body {
         margin-bottom: 21px;
     }
     .attention {
-        margin-bottom: 0px;
+        margin-bottom: 25px;
         margin-top: 5px;
     }
     .Exhibitors_section_16 {
-        top: 77%;
+        top: 80%;
     }
     .footer_button {
         max-width: 250px;
@@ -2472,7 +2499,7 @@ body {
     .footer_container {
         padding-top: 38px;
         padding-bottom: 0px;
-        height: 243px;
+        height: 273px;
     }
     .footer_logo {
         max-width: 296.5px;

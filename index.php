@@ -354,7 +354,11 @@
             </div>
     </section>  
     <div class="application-icon"><img src="./img/side_button.svg" alt="LINE_image"></div>
-    <div class="application-icon_sub"><img src="./img/footer_line.png" alt="LINE_image"></div>
+    <div class="application-icon_sub">
+        <a href="https://line.me" target="_blank" class="pre-register-button">事前申し込みはこちら（無料）
+           <img src="./img/LINE_Brand_icon.png" alt="LINE" class="line-icon" />
+        </a>
+    </div>
     <footer>
         <div class="footer_container">
             <div class="footer_button"><img src="/img/footer_button.png" alt="footer_button">
